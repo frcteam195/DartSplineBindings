@@ -1,0 +1,4 @@
+/Users/chris/git/dart-samples/ffi/structs/structs_library/CMakeFiles/structs_library.dir
+/Users/chris/git/dart-samples/ffi/structs/structs_library/CMakeFiles/structs_test.dir
+/Users/chris/git/dart-samples/ffi/structs/structs_library/CMakeFiles/edit_cache.dir
+/Users/chris/git/dart-samples/ffi/structs/structs_library/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ck_pathcobbler_bindings",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ck_pathcobbler_bindings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ck_pathcobbler_bindings-Debug-5bf6da363be47fb4a2d6.json",
+					"name" : "ck_pathcobbler_bindings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ck_utilities::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ck_utilities-Debug-d6505a9fe0b5a3e6cbec.json",
+					"name" : "ck_utilities",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/chris/git/ck/PathCobbler/lib/cmake-build-debug",
+		"source" : "/Users/chris/git/ck/PathCobbler/lib"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

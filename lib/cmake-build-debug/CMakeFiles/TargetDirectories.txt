@@ -1,0 +1,4 @@
+/Users/chris/git/ck/PathCobbler/lib/cmake-build-debug/CMakeFiles/ck_utilities.dir
+/Users/chris/git/ck/PathCobbler/lib/cmake-build-debug/CMakeFiles/ck_pathcobbler_bindings.dir
+/Users/chris/git/ck/PathCobbler/lib/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/chris/git/ck/PathCobbler/lib/cmake-build-debug/CMakeFiles/rebuild_cache.dir

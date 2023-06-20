@@ -1,0 +1,6 @@
+LIBRARY   path_lib
+EXPORTS
+    make_waypoints
+    get_waypoints
+    freeme
+    calc_splines

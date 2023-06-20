@@ -1,0 +1,303 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: ck_pathcobbler_bindings
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.8
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/chris/git/ck/PathCobbler/lib/cmake-build-debug/
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target ck_utilities
+
+
+#############################################
+# Order-only phony target for ck_utilities
+
+build cmake_object_order_depends_target_ck_utilities: phony || CMakeFiles/ck_utilities.dir
+
+build CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Pose2d.cpp.o: CXX_COMPILER__ck_utilities_Debug /Users/chris/git/ck/PathCobbler/lib/ck_utilities/src/team254_geometry/Pose2d.cpp || cmake_object_order_depends_target_ck_utilities
+  DEP_FILE = CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Pose2d.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/chris/git/ck/PathCobbler/lib/ck_utilities/include
+  OBJECT_DIR = CMakeFiles/ck_utilities.dir
+  OBJECT_FILE_DIR = CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry
+  TARGET_COMPILE_PDB = CMakeFiles/ck_utilities.dir/ck_utilities.pdb
+  TARGET_PDB = libck_utilities.pdb
+
+build CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Pose2dWithCurvature.cpp.o: CXX_COMPILER__ck_utilities_Debug /Users/chris/git/ck/PathCobbler/lib/ck_utilities/src/team254_geometry/Pose2dWithCurvature.cpp || cmake_object_order_depends_target_ck_utilities
+  DEP_FILE = CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Pose2dWithCurvature.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/chris/git/ck/PathCobbler/lib/ck_utilities/include
+  OBJECT_DIR = CMakeFiles/ck_utilities.dir
+  OBJECT_FILE_DIR = CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry
+  TARGET_COMPILE_PDB = CMakeFiles/ck_utilities.dir/ck_utilities.pdb
+  TARGET_PDB = libck_utilities.pdb
+
+build CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/QuinticHermiteSpline.cpp.o: CXX_COMPILER__ck_utilities_Debug /Users/chris/git/ck/PathCobbler/lib/ck_utilities/src/team254_geometry/QuinticHermiteSpline.cpp || cmake_object_order_depends_target_ck_utilities
+  DEP_FILE = CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/QuinticHermiteSpline.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/chris/git/ck/PathCobbler/lib/ck_utilities/include
+  OBJECT_DIR = CMakeFiles/ck_utilities.dir
+  OBJECT_FILE_DIR = CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry
+  TARGET_COMPILE_PDB = CMakeFiles/ck_utilities.dir/ck_utilities.pdb
+  TARGET_PDB = libck_utilities.pdb
+
+build CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Rotation2d.cpp.o: CXX_COMPILER__ck_utilities_Debug /Users/chris/git/ck/PathCobbler/lib/ck_utilities/src/team254_geometry/Rotation2d.cpp || cmake_object_order_depends_target_ck_utilities
+  DEP_FILE = CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Rotation2d.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/chris/git/ck/PathCobbler/lib/ck_utilities/include
+  OBJECT_DIR = CMakeFiles/ck_utilities.dir
+  OBJECT_FILE_DIR = CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry
+  TARGET_COMPILE_PDB = CMakeFiles/ck_utilities.dir/ck_utilities.pdb
+  TARGET_PDB = libck_utilities.pdb
+
+build CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/SplineGenerator.cpp.o: CXX_COMPILER__ck_utilities_Debug /Users/chris/git/ck/PathCobbler/lib/ck_utilities/src/team254_geometry/SplineGenerator.cpp || cmake_object_order_depends_target_ck_utilities
+  DEP_FILE = CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/SplineGenerator.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/chris/git/ck/PathCobbler/lib/ck_utilities/include
+  OBJECT_DIR = CMakeFiles/ck_utilities.dir
+  OBJECT_FILE_DIR = CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry
+  TARGET_COMPILE_PDB = CMakeFiles/ck_utilities.dir/ck_utilities.pdb
+  TARGET_PDB = libck_utilities.pdb
+
+build CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Transform2d.cpp.o: CXX_COMPILER__ck_utilities_Debug /Users/chris/git/ck/PathCobbler/lib/ck_utilities/src/team254_geometry/Transform2d.cpp || cmake_object_order_depends_target_ck_utilities
+  DEP_FILE = CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Transform2d.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/chris/git/ck/PathCobbler/lib/ck_utilities/include
+  OBJECT_DIR = CMakeFiles/ck_utilities.dir
+  OBJECT_FILE_DIR = CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry
+  TARGET_COMPILE_PDB = CMakeFiles/ck_utilities.dir/ck_utilities.pdb
+  TARGET_PDB = libck_utilities.pdb
+
+build CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Translation2d.cpp.o: CXX_COMPILER__ck_utilities_Debug /Users/chris/git/ck/PathCobbler/lib/ck_utilities/src/team254_geometry/Translation2d.cpp || cmake_object_order_depends_target_ck_utilities
+  DEP_FILE = CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Translation2d.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/chris/git/ck/PathCobbler/lib/ck_utilities/include
+  OBJECT_DIR = CMakeFiles/ck_utilities.dir
+  OBJECT_FILE_DIR = CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry
+  TARGET_COMPILE_PDB = CMakeFiles/ck_utilities.dir/ck_utilities.pdb
+  TARGET_PDB = libck_utilities.pdb
+
+build CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Twist2d.cpp.o: CXX_COMPILER__ck_utilities_Debug /Users/chris/git/ck/PathCobbler/lib/ck_utilities/src/team254_geometry/Twist2d.cpp || cmake_object_order_depends_target_ck_utilities
+  DEP_FILE = CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Twist2d.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/chris/git/ck/PathCobbler/lib/ck_utilities/include
+  OBJECT_DIR = CMakeFiles/ck_utilities.dir
+  OBJECT_FILE_DIR = CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry
+  TARGET_COMPILE_PDB = CMakeFiles/ck_utilities.dir/ck_utilities.pdb
+  TARGET_PDB = libck_utilities.pdb
+
+build CMakeFiles/ck_utilities.dir/ck_utilities/src/trajectory/MirroredTrajectory.cpp.o: CXX_COMPILER__ck_utilities_Debug /Users/chris/git/ck/PathCobbler/lib/ck_utilities/src/trajectory/MirroredTrajectory.cpp || cmake_object_order_depends_target_ck_utilities
+  DEP_FILE = CMakeFiles/ck_utilities.dir/ck_utilities/src/trajectory/MirroredTrajectory.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/chris/git/ck/PathCobbler/lib/ck_utilities/include
+  OBJECT_DIR = CMakeFiles/ck_utilities.dir
+  OBJECT_FILE_DIR = CMakeFiles/ck_utilities.dir/ck_utilities/src/trajectory
+  TARGET_COMPILE_PDB = CMakeFiles/ck_utilities.dir/ck_utilities.pdb
+  TARGET_PDB = libck_utilities.pdb
+
+build CMakeFiles/ck_utilities.dir/ck_utilities/src/trajectory/TrajectoryGenerator.cpp.o: CXX_COMPILER__ck_utilities_Debug /Users/chris/git/ck/PathCobbler/lib/ck_utilities/src/trajectory/TrajectoryGenerator.cpp || cmake_object_order_depends_target_ck_utilities
+  DEP_FILE = CMakeFiles/ck_utilities.dir/ck_utilities/src/trajectory/TrajectoryGenerator.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/chris/git/ck/PathCobbler/lib/ck_utilities/include
+  OBJECT_DIR = CMakeFiles/ck_utilities.dir
+  OBJECT_FILE_DIR = CMakeFiles/ck_utilities.dir/ck_utilities/src/trajectory
+  TARGET_COMPILE_PDB = CMakeFiles/ck_utilities.dir/ck_utilities.pdb
+  TARGET_PDB = libck_utilities.pdb
+
+build CMakeFiles/ck_utilities.dir/ck_utilities/src/trajectory/TrajectoryUtil.cpp.o: CXX_COMPILER__ck_utilities_Debug /Users/chris/git/ck/PathCobbler/lib/ck_utilities/src/trajectory/TrajectoryUtil.cpp || cmake_object_order_depends_target_ck_utilities
+  DEP_FILE = CMakeFiles/ck_utilities.dir/ck_utilities/src/trajectory/TrajectoryUtil.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/chris/git/ck/PathCobbler/lib/ck_utilities/include
+  OBJECT_DIR = CMakeFiles/ck_utilities.dir
+  OBJECT_FILE_DIR = CMakeFiles/ck_utilities.dir/ck_utilities/src/trajectory
+  TARGET_COMPILE_PDB = CMakeFiles/ck_utilities.dir/ck_utilities.pdb
+  TARGET_PDB = libck_utilities.pdb
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target ck_utilities
+
+
+#############################################
+# Link the static library libck_utilities.a
+
+build libck_utilities.a: CXX_STATIC_LIBRARY_LINKER__ck_utilities_Debug CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Pose2d.cpp.o CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Pose2dWithCurvature.cpp.o CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/QuinticHermiteSpline.cpp.o CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Rotation2d.cpp.o CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/SplineGenerator.cpp.o CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Transform2d.cpp.o CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Translation2d.cpp.o CMakeFiles/ck_utilities.dir/ck_utilities/src/team254_geometry/Twist2d.cpp.o CMakeFiles/ck_utilities.dir/ck_utilities/src/trajectory/MirroredTrajectory.cpp.o CMakeFiles/ck_utilities.dir/ck_utilities/src/trajectory/TrajectoryGenerator.cpp.o CMakeFiles/ck_utilities.dir/ck_utilities/src/trajectory/TrajectoryUtil.cpp.o
+  ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/ck_utilities.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/ck_utilities.dir/ck_utilities.pdb
+  TARGET_FILE = libck_utilities.a
+  TARGET_PDB = libck_utilities.pdb
+
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target ck_pathcobbler_bindings
+
+
+#############################################
+# Order-only phony target for ck_pathcobbler_bindings
+
+build cmake_object_order_depends_target_ck_pathcobbler_bindings: phony || cmake_object_order_depends_target_ck_utilities
+
+build CMakeFiles/ck_pathcobbler_bindings.dir/src/main.cpp.o: CXX_COMPILER__ck_pathcobbler_bindings_Debug /Users/chris/git/ck/PathCobbler/lib/src/main.cpp || cmake_object_order_depends_target_ck_pathcobbler_bindings
+  DEFINES = -Dck_pathcobbler_bindings_EXPORTS
+  DEP_FILE = CMakeFiles/ck_pathcobbler_bindings.dir/src/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/chris/git/ck/PathCobbler/lib/include -I/Users/chris/git/ck/PathCobbler/lib/ck_utilities/include
+  OBJECT_DIR = CMakeFiles/ck_pathcobbler_bindings.dir
+  OBJECT_FILE_DIR = CMakeFiles/ck_pathcobbler_bindings.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/ck_pathcobbler_bindings.dir/
+  TARGET_PDB = libck_pathcobbler_bindings.pdb
+
+build CMakeFiles/ck_pathcobbler_bindings.dir/src/waypoint.cpp.o: CXX_COMPILER__ck_pathcobbler_bindings_Debug /Users/chris/git/ck/PathCobbler/lib/src/waypoint.cpp || cmake_object_order_depends_target_ck_pathcobbler_bindings
+  DEFINES = -Dck_pathcobbler_bindings_EXPORTS
+  DEP_FILE = CMakeFiles/ck_pathcobbler_bindings.dir/src/waypoint.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fPIC -std=gnu++17
+  INCLUDES = -I/Users/chris/git/ck/PathCobbler/lib/include -I/Users/chris/git/ck/PathCobbler/lib/ck_utilities/include
+  OBJECT_DIR = CMakeFiles/ck_pathcobbler_bindings.dir
+  OBJECT_FILE_DIR = CMakeFiles/ck_pathcobbler_bindings.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/ck_pathcobbler_bindings.dir/
+  TARGET_PDB = libck_pathcobbler_bindings.pdb
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target ck_pathcobbler_bindings
+
+
+#############################################
+# Link the shared library libck_pathcobbler_bindings.so
+
+build libck_pathcobbler_bindings.so: CXX_SHARED_LIBRARY_LINKER__ck_pathcobbler_bindings_Debug CMakeFiles/ck_pathcobbler_bindings.dir/src/main.cpp.o CMakeFiles/ck_pathcobbler_bindings.dir/src/waypoint.cpp.o | libck_utilities.a || libck_utilities.a
+  ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2
+  INSTALLNAME_DIR = @rpath/
+  LANGUAGE_COMPILE_FLAGS = -g
+  LINK_LIBRARIES = libck_utilities.a
+  OBJECT_DIR = CMakeFiles/ck_pathcobbler_bindings.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  SONAME = libck_pathcobbler_bindings.so
+  SONAME_FLAG = -install_name
+  TARGET_COMPILE_PDB = CMakeFiles/ck_pathcobbler_bindings.dir/
+  TARGET_FILE = libck_pathcobbler_bindings.so
+  TARGET_PDB = libck_pathcobbler_bindings.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/chris/git/ck/PathCobbler/lib/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/chris/git/ck/PathCobbler/lib/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/chris/git/ck/PathCobbler/lib -B/Users/chris/git/ck/PathCobbler/lib/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+build ck_pathcobbler_bindings: phony libck_pathcobbler_bindings.so
+
+build ck_utilities: phony libck_utilities.a
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/chris/git/ck/PathCobbler/lib/cmake-build-debug
+
+build all: phony libck_utilities.a libck_pathcobbler_bindings.so
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Phony target to force glob verification run.
+
+build /Users/chris/git/ck/PathCobbler/lib/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake_force: phony
+
+
+#############################################
+# Re-run CMake to check if globbed directories changed.
+
+build /Users/chris/git/ck/PathCobbler/lib/cmake-build-debug/CMakeFiles/cmake.verify_globs: VERIFY_GLOBS | /Users/chris/git/ck/PathCobbler/lib/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake_force
+  pool = console
+  restat = 1
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE /Users/chris/git/ck/PathCobbler/lib/cmake-build-debug/CMakeFiles/cmake.verify_globs | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CheckIncludeFile.c.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /Users/chris/git/ck/PathCobbler/lib/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CheckIncludeFile.c.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /Users/chris/git/ck/PathCobbler/lib/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
